@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= DataBindingUtil.setContentView(this,R.layout.activity_main)
 
-        setSupportActionBar(binding.toolBar)
+        //setSupportActionBar(binding.toolBar)
 
         navController=findNavController(R.id.nav_host_fragment)
         val appBarConfiguration= AppBarConfiguration(setOf(R.id.enterNameFragment,R.id.showDataFragment))
